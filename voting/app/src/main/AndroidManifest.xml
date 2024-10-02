@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.MitWpu">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MitWpu">
+        <activity android:name="com.example.MitWpu.ResultsAdmin"></activity>
+        <activity android:name="com.example.MitWpu.Results" />
+        <activity android:name="com.example.MitWpu.VotingPage" />
+        <activity android:name="com.example.MitWpu.ViewParties" />
+        <activity android:name="com.example.MitWpu.AddParty" />
+        <activity android:name="com.example.MitWpu.ViewProfile" />
+        <activity android:name="com.example.MitWpu.AdminHome" />
+        <activity android:name="com.example.MitWpu.AddVoter" />
+        <activity android:name="com.example.MitWpu.AdminLogin" />
+        <activity android:name="com.example.MitWpu.Home" />
+        <activity android:name="com.example.MitWpu.Login" />
+        <activity android:name="com.example.MitWpu.Registration" />
+        <activity android:name="com.example.MitWpu.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
